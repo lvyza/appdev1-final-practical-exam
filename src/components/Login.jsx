@@ -67,7 +67,7 @@ function Login() {
         </div>
 
         <p className={styles.signInText}>
-          Have an account? <span>Sign In</span>
+          Don’t have an account? <span>Sign Up.</span>
         </p>
       </section>
 
