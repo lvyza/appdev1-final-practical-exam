@@ -15,15 +15,6 @@ function Login() {
 
         <form className={styles.form}>
           <div className={styles.field}>
-            <label htmlFor="name">Name</label>
-            <input
-              id="name"
-              type="text"
-              placeholder="Enter your name"
-            />
-          </div>
-
-          <div className={styles.field}>
             <label htmlFor="email">Email address</label>
             <input
               id="email"
@@ -33,7 +24,13 @@ function Login() {
           </div>
 
           <div className={styles.field}>
-            <label htmlFor="password">Password</label>
+            <div className={styles.passwordLabel}>
+              <label htmlFor="password">Password</label>
+              <a href="#" className={styles.forgotPassword}>
+                Forgot Password?
+              </a>
+            </div>
+
             <input
               id="password"
               type="password"
@@ -43,11 +40,11 @@ function Login() {
 
           <label className={styles.agree}>
             <input type="checkbox" />
-            <span>I agree to the terms & policy</span>
+            <span>Remember for 30 days</span>
           </label>
 
           <button type="submit" className={styles.signupButton}>
-            Signup
+            Login
           </button>
         </form>
 
