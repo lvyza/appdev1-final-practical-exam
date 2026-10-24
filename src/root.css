@@ -1,0 +1,17 @@
+:root {
+  --color-page-background: #eeeeee;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-border: #d9d9d9;
+  --color-placeholder: #999999;
+  --color-muted: #777777;
+
+  --font-primary: 'Poppins', sans-serif;
+
+  --title-size: 20px;
+  --label-size: 14px;
+  --body-size: 13px;
+  --small-size: 12px;
+
+  --border-radius: 8px;
+}

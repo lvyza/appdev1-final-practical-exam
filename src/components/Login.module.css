@@ -1,7 +1,7 @@
 .signup {
   display: flex;
   min-height: 100vh;
-  background: #eeeeee;
+  background: var(--color-page-background);
   padding: 55px 0 25px;
   box-sizing: border-box;
 }
@@ -10,7 +10,7 @@
 .rightSection {
   width: 50%;
   min-height: 623px;
-  background: #ffffff;
+  background: var(--color-white);
 }
 
 .leftSection {
@@ -33,19 +33,19 @@
 
 .title {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
+  font-family: var(--font-primary);
+  font-size: var(--title-size);
   font-weight: 600;
   line-height: 1.2;
 }
 
 .subtitle {
   margin: 10px 0 0;
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
+  font-family: var(--font-primary);
+  font-size: var(--small-size);
   font-weight: 400;
   line-height: 1.5;
-  color: #777777;
+  color: var(--color-muted);
 }
 
 .form {
@@ -62,8 +62,8 @@
 }
 
 .field label {
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
+  font-family: var(--font-primary);
+  font-size: var(--label-size);
   font-weight: 500;
 }
 
@@ -74,9 +74,9 @@
 }
 
 .forgotPassword {
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
-  color: #000000;
+  font-family: var(--font-primary);
+  font-size: var(--small-size);
+  color: var(--color-black);
   text-decoration: none;
 }
 
@@ -87,34 +87,34 @@
 .field input {
   width: 100%;
   padding: 13px 14px;
-  border: 1px solid #d9d9d9;
-  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  font-size: 13px;
+  font-family: var(--font-primary);
+  font-size: var(--body-size);
 }
 
 .field input::placeholder {
-  color: #999999;
+  color: var(--color-placeholder);
 }
 
 .agree {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
+  font-family: var(--font-primary);
+  font-size: var(--small-size);
 }
 
 .signupButton {
   width: 100%;
   padding: 13px;
   border: none;
-  border-radius: 8px;
-  background: #000000;
-  color: #ffffff;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
+  border-radius: var(--border-radius);
+  background: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-primary);
+  font-size: var(--label-size);
   font-weight: 600;
   cursor: pointer;
 }
@@ -129,14 +129,14 @@
 .divider span {
   flex: 1;
   height: 1px;
-  background: #d9d9d9;
+  background: var(--color-border);
 }
 
 .divider p {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
-  color: #777777;
+  font-family: var(--font-primary);
+  font-size: var(--small-size);
+  color: var(--color-muted);
 }
 
 .socialButtons {
@@ -151,11 +151,11 @@
   justify-content: center;
   gap: 8px;
   padding: 11px 10px;
-  border: 1px solid #d9d9d9;
-  border-radius: 8px;
-  background: #ffffff;
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  background: var(--color-white);
+  font-family: var(--font-primary);
+  font-size: var(--small-size);
   cursor: pointer;
 }
 
@@ -168,13 +168,13 @@
 .signInText {
   margin: 22px 0 0;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
-  color: #777777;
+  font-family: var(--font-primary);
+  font-size: var(--small-size);
+  color: var(--color-muted);
 }
 
 .signInText span {
-  color: #000000;
+  color: var(--color-black);
   font-weight: 600;
   cursor: pointer;
 }
