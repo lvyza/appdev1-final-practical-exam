@@ -1,4 +1,5 @@
 import styles from './SignUp.module.css'
+import { Input } from './ui/input'
 import blossomFlower from '../assets/blossom-flower.svg'
 import googleLogo from '../assets/icons-google-logo.svg'
 import appleLogo from '../assets/icons-apple-logo.svg'
@@ -12,7 +13,7 @@ function SignUp() {
         <form className={styles.form}>
           <div className={styles.field}>
             <label htmlFor="name">Name</label>
-            <input
+            <Input
               id="name"
               type="text"
               placeholder="Enter your name"
@@ -21,7 +22,7 @@ function SignUp() {
 
           <div className={styles.field}>
             <label htmlFor="email">Email address</label>
-            <input
+            <Input
               id="email"
               type="email"
               placeholder="Enter your email"
@@ -30,7 +31,7 @@ function SignUp() {
 
           <div className={styles.field}>
             <label htmlFor="password">Password</label>
-            <input
+            <Input
               id="password"
               type="password"
               placeholder="Enter your password"
