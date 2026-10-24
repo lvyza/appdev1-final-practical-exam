@@ -1,4 +1,5 @@
 import styles from './Login.module.css'
+import { Input } from './ui/input'
 import blossomFlower from '../assets/blossom-flower.svg'
 import googleLogo from '../assets/icons-google-logo.svg'
 import appleLogo from '../assets/icons-apple-logo.svg'
@@ -16,7 +17,7 @@ function Login() {
         <form className={styles.form}>
           <div className={styles.field}>
             <label htmlFor="email">Email address</label>
-            <input
+            <Input
               id="email"
               type="email"
               placeholder="Enter your email"
@@ -31,7 +32,7 @@ function Login() {
               </a>
             </div>
 
-            <input
+            <Input
               id="password"
               type="password"
               placeholder="Enter your password"
