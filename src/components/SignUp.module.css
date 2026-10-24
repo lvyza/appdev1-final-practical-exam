@@ -1,0 +1,31 @@
+.signup {
+  display: flex;
+  min-height: 100vh;
+  background: #eeeeee;
+  padding: 55px 0 25px;
+  box-sizing: border-box;
+}
+
+.leftSection,
+.rightSection {
+  width: 50%;
+  min-height: 623px;
+  background: #ffffff;
+}
+
+.leftSection {
+  margin-right: 80px;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.blossom {
+  width: 60%;
+  height: 90%;
+  object-fit: contain;
+}
